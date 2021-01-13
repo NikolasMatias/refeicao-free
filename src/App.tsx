@@ -5,6 +5,7 @@ import BeersService from './api/punk/v2/BeersService';
 
 function App() {
   BeersService.random();
+  //teste
 
   return (
     <div className="App">
