@@ -1,8 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import BeersService from './api/punk/v2/BeersService';
 
 function App() {
+  BeersService.random();
+
   return (
     <div className="App">
       <header className="App-header">

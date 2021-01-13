@@ -5,6 +5,7 @@ export default axios.create({
     headers: {
         'Content-Type': 'application/json',
         'Accept': 'application/json',
-        'Access-Control-Allow-Origin': '*'
+        'Access-Control-Allow-Origin': '*',
+        'User-Agent': 'RefeiçaoFree - Web - Version 0.1 - www.refeicaofree.com.br'
     }
 });
